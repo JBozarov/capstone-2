@@ -5,14 +5,14 @@ As you should know by now, there are 4 pillars of Object Oriented Programming.
 ********************
 1. Encapsulation
 
-Before understanding the encapsulation in Java, let's try to understand why this pillar is called encapsulation. Well, in medicine encapsulation is a capsule that consists of several medicines. Same concept can apply to Java's encapsulation pillar. If you take several codes and wrap it, it becomes encapsulated code. So what are they? They are variable, getters and setters. So why do we need them ? Well we need to declare our variable as private and create getter method to get the value of that variable and setter method to set the value of that variable. So why do we need to use getter ? Why can't we access to that variable directly ? Well, the whole idea about encapsulating the code is hiding implementation details from users and to protect that variable from being mutated directly. Our job is to make sure no one can access to that variable outside of the Java class. By using the getter method we set read-only access to our variable and by setting setters we set write-only access. This really makes sure our variable will be safe and our code will be have less bug. This encapsulation concept can also be applied to constructors. Here is some example how to implement encapsulation:
-
+Before understanding the encapsulation in Java, let's try to understand why this pillar called encapsulation. Well, in medicine encapsulation is a capsule consists of several medicines. In Java encapsulation is data hiding using several code. Encapsulated code includes private variable, getters and setters. So why do we need them ? Well we need to declare our variable as private and create getter method to get the value of that variable and setter method to set the value of that variable. So why do we need to use getter ? Why can't we access to that variable directly ? Well, the whole idea about encapsulating the code is hiding implementation details from users and to protect that variable from being mutated directly. Our job is to make sure no one can access to that variable outside of the Java class. By using the getter method we set read-only access to our variable and by setting setters we set write-only access. This really makes sure our variable will be safe and our code will be have less bug. This encapsulation concept can also be applied to constructors. Here is some example how to implement encapsulation:
 
 ![Maing encapsulation](Materials/encap_classA.png)
 
  As we can see above, code is private means not accessible from outside of the class. But the only way to get its value is using getName method. In order to assign value we use setName method:
 
 ![Maing encapsulation](Materials/encap_main.png)
+
 We instantiate a ClassA and set the value of the name variable to "John" and using the getName method we are able to get its value. Line 9 prints "John" to the console.
 
 ********************
@@ -73,7 +73,7 @@ As we can see, both methods are implemented in subclass and the interface has on
 
 In Object Oriented Programming polymorphism is a very important concept. The meaning of polymorphism is poly means many and morph means forms so polymorphism is many forms ( meaning like one unit is being in several forms ). So in OOP polymorphism is using the single method in many forms, many ways, for different purposes. So how do we achieve that ? We achieve that by creating abstract methods (method signature ) inside an interface and defining the method body in the class based on the class requirements. Each method will have a different body for different implementation purposes.
 For concrete example, let's say we have a different bank class that has overdraft methods. When we instantiate a bank class, each object will have a different way ( different overdraft charge fee ) of implementing overdraft method so instead of creating overdraft methods in each instance of the bank class, we define overdraft signature in the interface and make class bank implements interface. That way we achieve polymorphism, I mean we don't need to ???
-Polymorphism is achieved by overloading and overriding methods.
+Polymorphism achieved by overloading and overriding methods.
    Overloading a class has multiple methods with the same name but with different parameters.
    Overriding a subclass uses the super class's method ( same name, same parameters ) by adding specific information that belongs to the subclass.
    We use @overload and @override annotations to tell our code that these methods are being overloaded or overridden. 
