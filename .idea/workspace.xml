@@ -20,38 +20,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fb9ad58-016a-49ce-b614-e05f5631f9cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brickbreaker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gameAssets/ball.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gameAssets/blue2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gameAssets/blueBlock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gameAssets/greenBackPaddle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gameAssets/greyBlock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gameAssets/orangeBlock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gameAssets/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gameAssets/purpleBlock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gameAssets/redBlock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gameAssets/welcome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gameAssets/whiteBlock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class_structure.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brickbreaker/game/Block.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brickbreaker/game/ButtonsPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brickbreaker/game/GameBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brickbreaker/game/GamePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brickbreaker/game/GameScreenPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brickbreaker/game/IShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brickbreaker/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brickbreaker/main/MainWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brickbreaker/start/GameMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brickbreaker/start/StartScreenPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/capstone-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game-Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/Game-Instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gameAssets/bisque.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gameAssets/blueviolet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gameAssets/cyan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gameAssets/navy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gameAssets/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gameAssets/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/brickbreaker/UML.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UML.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP.md" beforeDir="false" afterPath="$PROJECT_DIR$/OOP.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UPER.md" beforeDir="false" afterPath="$PROJECT_DIR$/UPER.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameAssets/blueBlock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameAssets/greyBlock.png" beforeDir="false" afterPath="$PROJECT_DIR$/gameAssets/grey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameAssets/orangeBlock.png" beforeDir="false" afterPath="$PROJECT_DIR$/gameAssets/orange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameAssets/purpleBlock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameAssets/redBlock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameAssets/whiteBlock.png" beforeDir="false" afterPath="$PROJECT_DIR$/gameAssets/white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/brickbreaker/com/brickbreaker/game/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/brickbreaker/com/brickbreaker/game/Block.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/brickbreaker/com/brickbreaker/game/GameBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/brickbreaker/com/brickbreaker/game/GameBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/brickbreaker/com/brickbreaker/game/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/brickbreaker/com/brickbreaker/game/GamePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/brickbreaker/com/brickbreaker/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/brickbreaker/com/brickbreaker/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/brickbreaker/com/brickbreaker/main/MainWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/brickbreaker/com/brickbreaker/main/MainWindow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/brickbreaker/com/brickbreaker/main/MainWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/brickbreaker/com/brickbreaker/main/MainWindow$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/brickbreaker/com/brickbreaker/main/MainWindow$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/brickbreaker/com/brickbreaker/main/MainWindow$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/brickbreaker/com/brickbreaker/main/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/brickbreaker/com/brickbreaker/main/MainWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brickbreaker/game/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brickbreaker/game/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brickbreaker/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brickbreaker/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brickbreaker/main/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brickbreaker/main/MainWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +81,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/gameAssets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/gameAssets" />
@@ -148,36 +145,36 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="488" y="216" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.877/-974.-1057.1920.1057@0.23.1440.877" timestamp="1594675644049" />
-    <state width="319" height="612" key="GridCell.Tab.0.bottom" timestamp="1594677267397">
+    <state width="317" height="653" key="GridCell.Tab.0.bottom" timestamp="1594699196734">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-909.1920.1057/68.-1057.1920.1057@-1920.-909.1920.1057" timestamp="1594595673047" />
-    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-909.1920.1057/68.-1057.1920.1057@0.23.1440.877" timestamp="1594602340212" />
-    <state width="373" height="937" key="GridCell.Tab.0.bottom/0.23.1440.877/-974.-1057.1920.1057@-974.-1057.1920.1057" timestamp="1594673812124" />
+    <state width="317" height="653" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-909.1920.1057/68.-1057.1920.1057@0.23.1440.877" timestamp="1594699196734" />
+    <state width="319" height="937" key="GridCell.Tab.0.bottom/0.23.1440.877/-974.-1057.1920.1057@-974.-1057.1920.1057" timestamp="1594685870480" />
     <state width="319" height="612" key="GridCell.Tab.0.bottom/0.23.1440.877/-974.-1057.1920.1057@0.23.1440.877" timestamp="1594677267397" />
     <state width="373" height="757" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1594642799077" />
-    <state width="319" height="612" key="GridCell.Tab.0.center" timestamp="1594677267396">
+    <state width="317" height="653" key="GridCell.Tab.0.center" timestamp="1594699196734">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-909.1920.1057/68.-1057.1920.1057@-1920.-909.1920.1057" timestamp="1594595673046" />
-    <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-909.1920.1057/68.-1057.1920.1057@0.23.1440.877" timestamp="1594602340211" />
-    <state width="373" height="937" key="GridCell.Tab.0.center/0.23.1440.877/-974.-1057.1920.1057@-974.-1057.1920.1057" timestamp="1594673812123" />
+    <state width="317" height="653" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-909.1920.1057/68.-1057.1920.1057@0.23.1440.877" timestamp="1594699196734" />
+    <state width="319" height="937" key="GridCell.Tab.0.center/0.23.1440.877/-974.-1057.1920.1057@-974.-1057.1920.1057" timestamp="1594685870480" />
     <state width="319" height="612" key="GridCell.Tab.0.center/0.23.1440.877/-974.-1057.1920.1057@0.23.1440.877" timestamp="1594677267396" />
     <state width="373" height="757" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1594642799076" />
-    <state width="319" height="612" key="GridCell.Tab.0.left" timestamp="1594677267396">
+    <state width="317" height="653" key="GridCell.Tab.0.left" timestamp="1594699196733">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-909.1920.1057/68.-1057.1920.1057@-1920.-909.1920.1057" timestamp="1594595673045" />
-    <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-909.1920.1057/68.-1057.1920.1057@0.23.1440.877" timestamp="1594602340211" />
-    <state width="373" height="937" key="GridCell.Tab.0.left/0.23.1440.877/-974.-1057.1920.1057@-974.-1057.1920.1057" timestamp="1594673812122" />
+    <state width="317" height="653" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-909.1920.1057/68.-1057.1920.1057@0.23.1440.877" timestamp="1594699196733" />
+    <state width="319" height="937" key="GridCell.Tab.0.left/0.23.1440.877/-974.-1057.1920.1057@-974.-1057.1920.1057" timestamp="1594685870479" />
     <state width="319" height="612" key="GridCell.Tab.0.left/0.23.1440.877/-974.-1057.1920.1057@0.23.1440.877" timestamp="1594677267396" />
     <state width="373" height="757" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1594642799075" />
-    <state width="319" height="612" key="GridCell.Tab.0.right" timestamp="1594677267397">
+    <state width="317" height="653" key="GridCell.Tab.0.right" timestamp="1594699196734">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-909.1920.1057/68.-1057.1920.1057@-1920.-909.1920.1057" timestamp="1594595673047" />
-    <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-909.1920.1057/68.-1057.1920.1057@0.23.1440.877" timestamp="1594602340212" />
-    <state width="373" height="937" key="GridCell.Tab.0.right/0.23.1440.877/-974.-1057.1920.1057@-974.-1057.1920.1057" timestamp="1594673812123" />
+    <state width="317" height="653" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-909.1920.1057/68.-1057.1920.1057@0.23.1440.877" timestamp="1594699196734" />
+    <state width="319" height="937" key="GridCell.Tab.0.right/0.23.1440.877/-974.-1057.1920.1057@-974.-1057.1920.1057" timestamp="1594685870480" />
     <state width="319" height="612" key="GridCell.Tab.0.right/0.23.1440.877/-974.-1057.1920.1057@0.23.1440.877" timestamp="1594677267397" />
     <state width="373" height="757" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1594642799076" />
     <state x="221" y="100" key="SettingsEditor" timestamp="1594602327812">

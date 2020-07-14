@@ -22,6 +22,16 @@ public class MainWindow extends JFrame {
     // constructor creating 2 panels inside a one window
     private MainWindow () {
 
+    }
+
+    // Singleton Design Pattern
+    private static MainWindow mainWindow = new MainWindow();
+
+    public static MainWindow getMainWindow() {
+        return mainWindow;
+    }
+
+    public void initiateUI() {
         // initializing layout
         cardLayout = new CardLayout(0, 0);
         getContentPane().setLayout(cardLayout);
@@ -91,12 +101,6 @@ public class MainWindow extends JFrame {
         getContentPane().add(gameScreen, "Game Screen");
         cardLayout.show(getContentPane(), "Game Screen");
         repaint();
-    }
-
-    // Singleton Design Pattern
-    private static MainWindow mainWindow = new MainWindow();
-    public static MainWindow getMainWindow() {
-        return mainWindow;
     }
 
 }

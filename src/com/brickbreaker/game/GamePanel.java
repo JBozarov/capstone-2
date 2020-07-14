@@ -25,8 +25,8 @@ public class GamePanel extends JPanel implements KeyListener {
     private boolean pressed;
 
     private int[] numbers = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
-    private String[] colors = { "redBlock.png", "greyBlock.png", "whiteBlock.png", "purpleBlock.png", "orangeBlock.png",
-            "blueBlock.png", "blue2.png", "pink.png" };
+    private String[] colors = { "bisque.png", "blue2.png", "blueviolet.png", "cyan.png", "grey.png", "navy.png", "orange.png", "pink.png",
+            "purple.png", "red.png", "white.png" };
 
     private JFrame mainFrame;
 
@@ -37,7 +37,7 @@ public class GamePanel extends JPanel implements KeyListener {
     private int ballMoveY;
 
     private int pressedKey;
-    private int count;
+    private int destroyedCount;
 
 
     // constructor
@@ -93,7 +93,7 @@ public class GamePanel extends JPanel implements KeyListener {
     // creating a wall, using stream
     public void createWall(int y) {
         Arrays.stream(numbers).forEach(x -> {
-            blocks.add(new GameBlock((x * 67), y, 64, 25, colors[(int) Math.floor(Math.random() * 8)]));
+            blocks.add(new GameBlock((x * 67), y, 64, 25, colors[(int) Math.floor(Math.random() * 11)]));
         });
     }
 
@@ -112,11 +112,13 @@ public class GamePanel extends JPanel implements KeyListener {
     // method checks blocks size
     public boolean checkSize() {
         // using stream
-        ArrayList<GameBlock> copy = (ArrayList<GameBlock>) blocks
+        ArrayList<GameBlock> destroyedBlock = (ArrayList<GameBlock>) blocks
                 .stream()
                 .filter((brick -> brick.isDestroyed() == true))
                 .collect(Collectors.toList());
-        if (copy.size()==blocks.size()) {
+
+        destroyedCount = destroyedBlock.size();
+        if (destroyedBlock.size()==blocks.size()) {
             return true;
         }
         return false;
@@ -139,15 +141,16 @@ public class GamePanel extends JPanel implements KeyListener {
 
         // if we lose the ball
         if (ball.y > getHeight()) {
-            showMessageDialog(null, "You lost the ball!");
+            showMessageDialog(null, "You lost the ball! Your score is: " +destroyedCount);
 
             // we stop the thread by setting gameStarted to false
             gameStarted = false;
             resetGame();
         }
 
+        // winning condition
         if (checkSize()) {
-            showMessageDialog(null, "You won the game!");
+            showMessageDialog(null, "You won the game! Your score is " + destroyedCount);
             gameStarted = false;
             resetGame();
         }
@@ -161,11 +164,6 @@ public class GamePanel extends JPanel implements KeyListener {
                 }
                 ballMoveY *= -1;
                 brick.setDestroyed(true);
-                if (!brick.isDestroyed()) {
-                    System.out.println("Count is " + count);
-                    count += 1;
-                }
-
             }
         });
         repaint();
@@ -180,7 +178,7 @@ public class GamePanel extends JPanel implements KeyListener {
         initialBallMoveY = newSpeed;
     }
 
-    // using lambda
+
     @Override
     public void keyPressed(KeyEvent e) {
         pressedKey = e.getKeyCode();

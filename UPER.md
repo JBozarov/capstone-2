@@ -12,7 +12,6 @@
   * I must have at least 1 interface, 1 abstract class, 1 lambda and 1 stream.
   * I must have at least one package. Also, error handling for bad input ( try catch ).
   
-* I checked most of the game examples given at Github repository to have an idea what game I will build and how it should look, and to see the game functionalities.
 
 // Problems I have:
 * I need to build a game
@@ -70,7 +69,7 @@ I planned to have random color bricks on the top of the window. Also 3 buttons u
 </h2>
 
 
-* Created Shape interface that holds createImage method signature, Block overrides that method.
+* Created IShape interface and Block abstract class.
 
 * Implemented lambda in stream inside the createWall and update methods of GamePanel class 
 
